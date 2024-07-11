@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+	<!-- Bootstrap CSS -->
+        {{ bootstrap.load_css() }}
+
+        <title>Your page title</title>
+    </head>
+    <body>
+        <!-- Your page content -->
+	<div class="text-center">
+        <img src="{{ url_for('static', filename='bear.jpg') }}" class="rounded w-50">
+        </div>
+        <h1> GOAT is my favorite acronym it is the goat of all acronyms!!!!</h1>
+      </div>
+
+      <!-- Optional JavaScript -->
+      {{ bootstrap.load_js() }}
+    
+    </body>
+</html>
